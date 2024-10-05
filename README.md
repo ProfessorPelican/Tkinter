@@ -1,7 +1,9 @@
 # tkinter
 
 ## Overall Purpose:
-This is an example of taking Python data analytics and packaging them into a simple application so that an end user with no knowledge of programming can run it on demand.  Otherwise, the Python code is typically scheduled to run or else run by a data analyst.  In this case, the code will clean up files with *.TMP (Windows sometimes creates these as backup files for MS Office and then not delete them).  It moves the files to a designated folder, like an archive folder, just in case you need them (since they are MS Office backup).
+This is an example of taking Python data analytics and packaging them into a simple application so that an end user with no knowledge of programming can run it on demand.  Otherwise, Python code is typically scheduled to run or else run by a data analyst, which works often but sometimes is not ideal.  
+  
+This application cleans up *.TMP files (Windows sometimes creates these as backup files for MS Office and then doesn't delete them).  It moves the files to a designated folder, like an archive folder, just in case you need them (since they are MS Office backups).
 
 ## Useful Code Aspects:
 <ul>
